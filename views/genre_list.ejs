@@ -33,7 +33,7 @@
           <ul>
             <% genre_list.forEach(g => { %>
             <li>
-              <a href="<% g.url %> "><%= g.name %> </a>
+              <a href="<%= g.url %> "><%= g.name %> </a>
             </li>
             <% }) %> <% if (genre_list.length == 0) { %>
             <li>There are no genres</li>
